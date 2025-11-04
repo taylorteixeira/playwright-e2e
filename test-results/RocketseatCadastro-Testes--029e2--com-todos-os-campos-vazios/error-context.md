@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - img "Rocketseat" [ref=e7]
+    - heading "Cadastre-se gratuitamente" [level=1] [ref=e8]
+    - generic [ref=e9]:
+      - link "GitHub" [ref=e11] [cursor=pointer]:
+        - /url: https://github.com/login/oauth/authorize?scope=user:email&client_id=7937f08f44c73b1577a7
+        - button "GitHub" [ref=e12]:
+          - img [ref=e13]
+          - text: GitHub
+      - button "Google Google" [ref=e16] [cursor=pointer]:
+        - img "Google" [ref=e17]
+        - text: Google
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: Nome completo
+        - textbox "Seu nome completo" [active] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: E-mail
+        - textbox "Seu e-mail" [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Senha
+        - generic [ref=e29]:
+          - textbox "Deve ter no mínimo 7 caracteres" [ref=e30]
+          - button [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+      - generic [ref=e36]:
+        - generic [ref=e37]: Confirme sua senha
+        - generic [ref=e38]:
+          - textbox "Deve ter no mínimo 7 caracteres" [ref=e39]
+          - button [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - iframe [ref=e49]:
+        - generic [ref=f1e2]:
+          - generic [ref=f1e3]:
+            - checkbox "Não sou um robô" [ref=f1e7]
+            - generic [ref=f1e11]: Não sou um robô
+          - generic [ref=f1e12]:
+            - generic [ref=f1e15]: reCAPTCHA
+            - generic [ref=f1e16]:
+              - link "Privacidade" [ref=f1e17] [cursor=pointer]:
+                - /url: https://www.google.com/intl/pt-BR/policies/privacy/
+              - text: "-"
+              - link "Termos" [ref=f1e18] [cursor=pointer]:
+                - /url: https://www.google.com/intl/pt-BR/policies/terms/
+      - paragraph [ref=e50]:
+        - text: Ao se cadastrar, você aceita nossos
+        - link "termos de uso" [ref=e51] [cursor=pointer]:
+          - /url: https://www.rocketseat.com.br/terms
+        - text: e a nossa
+        - link "política de privacidade" [ref=e52] [cursor=pointer]:
+          - /url: https://www.rocketseat.com.br/privacy
+        - text: .
+      - button "Cadastrar-se gratuitamente" [disabled] [ref=e53]
+    - link "Já possui uma conta? Entre na plataforma" [ref=e55] [cursor=pointer]:
+      - /url: /login?to=/
+      - generic [ref=e56]:
+        - img [ref=e57]
+        - generic [ref=e60]:
+          - text: Já possui uma conta?
+          - generic [ref=e61]: Entre na plataforma
+        - img [ref=e62]
+  - region "Notifications alt+T"
+  - alert [ref=e64]
+  - iframe [ref=e65]:
+    
+```

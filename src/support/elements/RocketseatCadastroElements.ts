@@ -16,9 +16,6 @@ export class RocketseatCadastroElements {
     }
 
     passwordInput(): Locator {
-        // O Playwright pode ter dificuldade em distinguir entre os dois inputs com o mesmo placeholder.
-        // Vamos usar o seletor de input com o placeholder e garantir que é o primeiro.
-        // Alternativamente, podemos usar o seletor da label.
         return this.page.locator('input[placeholder="Deve ter no mínimo 7 caracteres"]').first();
     }
 

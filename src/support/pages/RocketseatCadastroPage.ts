@@ -43,18 +43,10 @@ export class RocketseatCadastroPage {
     }
 
     async getErrorMessageFor(field: 'name' | 'email' | 'password' | 'confirmPassword') {
-        // A lógica para obter a mensagem de erro pode ser complexa e depender de como a Rocketseat
-        // exibe os erros. Para simplificar, vamos focar em verificar a visibilidade de um elemento
-        // de erro genérico ou a ausência de navegação.
-        // No entanto, para testes mais robustos, o ideal seria ter um seletor específico para a mensagem de erro.
-        // Como não temos um seletor claro, vamos usar o seletor do input e verificar se ele tem um estado de erro.
-        // Para este exercício, vamos retornar um texto de erro simulado ou um locator para verificação no teste.
+
         switch (field) {
             case 'name':
             case 'email':
-                // O formulário da Rocketseat parece usar validação inline.
-                // Vamos tentar localizar um elemento de erro próximo ao input.
-                // Como não é visível no screenshot, vamos usar um seletor genérico para o teste.
                 return this.page.locator('text="Campo obrigatório"');
             case 'password':
             case 'confirmPassword':
