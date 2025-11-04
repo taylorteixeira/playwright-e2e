@@ -19,8 +19,6 @@ test.describe('Testes de Cadastro na Rocketseat', () => {
  }) => {
    await ai('Clique em Permitir todos os cookies', { page, test });
 
-   await ai('Click on the registration submit button', { page, test });
-
  });
 
   // Teste 2: Tentativa de cadastro com e-mail inválido
